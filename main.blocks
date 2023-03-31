@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="~G{j5WeNR`Kq@1zFb(QE" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="nB~g)!6UoO~E1WBYUk_6"><value name="ID"><shadow type="math_number_minmax" id="i5Ffy+$EV;P]2RiRkvdq"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">50</field></shadow></value></block></statement></block><block type="device_forever" id="Exf1Yz-TU6I229|x_D!9" x="-4" y="134"><statement name="HANDLER"><block type="controls_if" id=",Tt!L;sU#WtO2[8c1M~m"><mutation elseif="2"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="=jyT}eo%R[$XGzn:iBp|"><field name="NAME">TouchPin.P0</field></block></value><statement name="DO0"><block type="device_show_leds" id="./FI:%F3W|}Q3v=xVNSX"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="radio_datagram_send" id=":(pGa6?Pzm^NxUB];$?="><value name="value"><shadow type="math_number" id="SuhS3fh[W/$Y^n_w5fG."><field name="NUM">0</field></shadow></value></block></next></block></statement><value name="IF1"><block type="device_pin_is_pressed" id="-hh.]4w+IKDZMGb3JJ`%"><field name="NAME">TouchPin.P1</field></block></value><statement name="DO1"><block type="device_show_leds" id="*OZ@sFeZ)o6)nn]g!-Q@"><field name="LEDS">`
+        . # # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="radio_datagram_send" id="SA/[bWW|i25K=Lz92Z6["><value name="value"><shadow type="math_number" id="g`1q1l4sCV95fE(yL(W$"><field name="NUM">1</field></shadow></value></block></next></block></statement><value name="IF2"><block type="device_pin_is_pressed" id="8Qz@U_n.tJb1J9n6j7#b"><field name="NAME">TouchPin.P2</field></block></value><statement name="DO2"><block type="device_show_leds" id="Ixk~PG=0h^:BR/EL)#(;"><field name="LEDS">`
+        . # # # # 
+        . . . . # 
+        . # # # # 
+        . # . . . 
+        . # # # #
+        `</field><next><block type="radio_datagram_send" id="d*eMzJ:f.GIpeX-=INv{"><value name="value"><shadow type="math_number" id=",w*[LKIJ0n%L/epZpOLY"><field name="NUM">2</field></shadow></value></block></next></block></statement></block></statement></block></xml>
